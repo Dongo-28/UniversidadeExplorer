@@ -7,7 +7,8 @@ Mini aplicativo desenvolvido como parte do desafio prático da disciplina de **P
 - **Navegação em Stack:** Fluxo de telas (Home ➔ Detalhes do Curso ➔ Estudantes ➔ Perfil).
 - **Bottom Tab Navigation:** Abas separadas para "Home" e "Sobre" (About).
 - **Passagem de Dados:** Utilização de `route.params` para enviar informações (dados do curso e nome do estudante) entre as telas.
-- **Dados Simulados:** Uso de um ficheiro de *mock* (`mockData.js`) para popular as listas de cursos e estudantes.
+- **Lista Dinâmica:** Na tela de Estudantes, é possível adicionar novos nomes e remover os existentes, com validação de campos vazios e contador atualizado em tempo real.
+- **Dados Simulados:** Uso de um ficheiro de *mock* (`mockData.js`) para popular as listas iniciais de cursos e estudantes.
 - **Botão de Voltar:** Implementação de `navigation.goBack()` em todas as telas de detalhe/perfil.
 
 ## 🛠️ Tecnologias Utilizadas
